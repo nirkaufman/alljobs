@@ -1,10 +1,16 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {} from 'redux';
+
 
 @Component({
   selector: 'aj-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <aj-todolist></aj-todolist>
+  `,
 })
+
 export class AppComponent {
-  title = 'aj';
+
+
+
 }
